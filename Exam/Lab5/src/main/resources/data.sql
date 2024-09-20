@@ -1,0 +1,13 @@
+--DROP TABLE IF EXISTS user;
+--CREATE TABLE  user (
+ --                      id integer PRIMARY KEY auto_increment,
+--                       first_name varchar(32),
+   --                    second_name varchar(32),
+ --                      role varchar(16)
+--);
+
+--INSERT INTO USER VALUES(1,'Vitaliy','Sergeev','ADMIN');
+--INSERT INTO USER VALUES(2,'Petr','Alehin','DEVELOPER');
+--INSERT INTO USER VALUES(3,'Nikolai','Chekov','TESTER');
+--INSERT INTO USER VALUES(4,'Ivan','Vagner','SYSTEM_ANALYST');
+--INSERT INTO USER VALUES(5,'Nikita','Salnikov','TEAM_LEAD');

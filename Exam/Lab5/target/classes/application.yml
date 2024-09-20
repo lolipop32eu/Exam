@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb # url с переменной среды и стандартным значением 1
+    username: sa # ИМЯ ПОЛЬЗОВАТЕЛЯ с переменной среды и стандартным значением ВИТАЛЯ
+    password:  # ПАРОЛЬ базы данных с переменной среды
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+        hdm2ddl:
+          auto: update
